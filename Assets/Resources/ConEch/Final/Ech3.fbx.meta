@@ -1,0 +1,214 @@
+fileFormatVersion: 2
+guid: f4190772449231541a4693772d41227e
+timeCreated: 1459393908
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: EYES1:polySurface1
+    100004: FROG3:Group14
+    100006: group1
+    100008: group2
+    100010: Joint
+    100012: Jt_head_01
+    100014: Jt_jaw_1
+    100016: Jt_jaw_2
+    100018: Jt_l_arm_
+    100020: Jt_l_arm_1
+    100022: Jt_l_arm_2
+    100024: Jt_l_finarm_1_1
+    100026: Jt_l_finarm_1_2
+    100028: Jt_l_finarm_2_1
+    100030: Jt_l_finarm_2_2
+    100032: Jt_l_finarm_3_1
+    100034: Jt_l_finarm_3_2
+    100036: Jt_l_finarm_4_1
+    100038: Jt_l_finarm_4_2
+    100040: Jt_l_finger_leg_1_1
+    100042: Jt_l_finger_leg_1_2
+    100044: Jt_l_finger_leg_2_1
+    100046: Jt_l_finger_leg_2_2
+    100048: Jt_l_finger_leg_3_1
+    100050: Jt_l_finger_leg_3_2
+    100052: Jt_l_finger_leg_4_1
+    100054: Jt_l_finger_leg_4_2
+    100056: Jt_l_finger_leg_5
+    100058: Jt_l_foot_
+    100060: Jt_l_leg_
+    100062: Jt_l_leg_1
+    100064: Jt_l_leg_2
+    100066: Jt_r_arm_
+    100068: Jt_r_arm_1
+    100070: Jt_r_arm_2
+    100072: Jt_r_finarm_1_1
+    100074: Jt_r_finarm_1_2
+    100076: Jt_r_finarm_2_1
+    100078: Jt_r_finarm_2_2
+    100080: Jt_r_finarm_3_1
+    100082: Jt_r_finarm_3_2
+    100084: Jt_r_finarm_4_1
+    100086: Jt_r_finarm_4_2
+    100088: Jt_r_finger_leg_1_1
+    100090: Jt_r_finger_leg_1_2
+    100092: Jt_r_finger_leg_2_1
+    100094: Jt_r_finger_leg_2_2
+    100096: Jt_r_finger_leg_3_1
+    100098: Jt_r_finger_leg_3_2
+    100100: Jt_r_finger_leg_4_1
+    100102: Jt_r_finger_leg_4_2
+    100104: Jt_r_finger_leg_5
+    100106: Jt_r_foot_
+    100108: Jt_r_leg_
+    100110: Jt_r_leg_1
+    100112: Jt_r_leg_2
+    100114: Jt_shoulder1
+    100116: Jt_spline_1
+    100118: Jt_spline_2
+    100120: Jt_spline_3
+    100122: Mesh1
+    100124: polySurface1
+    100126: tounge:jtBn_tongue_1
+    100128: tounge:jtBn_tongue_2
+    100130: tounge:jtBn_tongue_3
+    100132: tounge:tounge:polySurface1
+    400000: //RootNode
+    400002: EYES1:polySurface1
+    400004: FROG3:Group14
+    400006: group1
+    400008: group2
+    400010: Joint
+    400012: Jt_head_01
+    400014: Jt_jaw_1
+    400016: Jt_jaw_2
+    400018: Jt_l_arm_
+    400020: Jt_l_arm_1
+    400022: Jt_l_arm_2
+    400024: Jt_l_finarm_1_1
+    400026: Jt_l_finarm_1_2
+    400028: Jt_l_finarm_2_1
+    400030: Jt_l_finarm_2_2
+    400032: Jt_l_finarm_3_1
+    400034: Jt_l_finarm_3_2
+    400036: Jt_l_finarm_4_1
+    400038: Jt_l_finarm_4_2
+    400040: Jt_l_finger_leg_1_1
+    400042: Jt_l_finger_leg_1_2
+    400044: Jt_l_finger_leg_2_1
+    400046: Jt_l_finger_leg_2_2
+    400048: Jt_l_finger_leg_3_1
+    400050: Jt_l_finger_leg_3_2
+    400052: Jt_l_finger_leg_4_1
+    400054: Jt_l_finger_leg_4_2
+    400056: Jt_l_finger_leg_5
+    400058: Jt_l_foot_
+    400060: Jt_l_leg_
+    400062: Jt_l_leg_1
+    400064: Jt_l_leg_2
+    400066: Jt_r_arm_
+    400068: Jt_r_arm_1
+    400070: Jt_r_arm_2
+    400072: Jt_r_finarm_1_1
+    400074: Jt_r_finarm_1_2
+    400076: Jt_r_finarm_2_1
+    400078: Jt_r_finarm_2_2
+    400080: Jt_r_finarm_3_1
+    400082: Jt_r_finarm_3_2
+    400084: Jt_r_finarm_4_1
+    400086: Jt_r_finarm_4_2
+    400088: Jt_r_finger_leg_1_1
+    400090: Jt_r_finger_leg_1_2
+    400092: Jt_r_finger_leg_2_1
+    400094: Jt_r_finger_leg_2_2
+    400096: Jt_r_finger_leg_3_1
+    400098: Jt_r_finger_leg_3_2
+    400100: Jt_r_finger_leg_4_1
+    400102: Jt_r_finger_leg_4_2
+    400104: Jt_r_finger_leg_5
+    400106: Jt_r_foot_
+    400108: Jt_r_leg_
+    400110: Jt_r_leg_1
+    400112: Jt_r_leg_2
+    400114: Jt_shoulder1
+    400116: Jt_spline_1
+    400118: Jt_spline_2
+    400120: Jt_spline_3
+    400122: Mesh1
+    400124: polySurface1
+    400126: tounge:jtBn_tongue_1
+    400128: tounge:jtBn_tongue_2
+    400130: tounge:jtBn_tongue_3
+    400132: tounge:tounge:polySurface1
+    4300000: tounge:tounge:polySurface1
+    4300002: FROG3:Group14
+    4300004: EYES1:polySurface1
+    4300006: polySurface1
+    9500000: //RootNode
+    13700000: EYES1:polySurface1
+    13700002: FROG3:Group14
+    13700004: polySurface1
+    13700006: tounge:tounge:polySurface1
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

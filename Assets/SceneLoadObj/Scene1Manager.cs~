@@ -1,0 +1,18 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class Scene1Manager : MonoBehaviour
+{
+
+
+	public void LoadScene2 ()
+	{
+		Application.LoadLevel ("Scene2");
+	}
+
+	public void LoadScene3 ()
+	{
+		Application.LoadLevel ("Scene3");
+	}
+
+}
