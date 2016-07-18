@@ -5,24 +5,24 @@ using AssetBundles;
 
 public class LoadScenes : MonoBehaviour
 {
-	public string sceneAssetBundle;
-	public string sceneName;
+	public static string sceneAssetBundle = "scene-bundle";
+	//public string sceneName;
 	
 	// Use this for initialization
 
-	public void loadScene ()
+	public void loadScene (string sceneName)
 	{
-		StartCoroutine (Loader ());
+		StartCoroutine (Loader (sceneName));
 	}
 
 
 
-	IEnumerator Loader ()
+	IEnumerator Loader (string sceneName)
 	{	
 		yield return StartCoroutine (Initialize ());
 		
 		// Load level.
-		yield return StartCoroutine (InitializeLevelAsync (sceneName, true));
+		yield return StartCoroutine (InitializeLevelAsync (sceneName, false));
 	}
 
 	// Initialize the downloading url and AssetBundleManifest object.
@@ -38,9 +38,34 @@ public class LoadScenes : MonoBehaviour
 //		AssetBundleManager.SetDevelopmentAssetBundleServer ();
 //		#else
 		//Use the following code if AssetBundles are embedded in the project for example via StreamingAssets folder etc
-		AssetBundleManager.SetSourceAssetBundleURL (Application.dataPath + "/");
+		//AssetBundleManager.SetSourceAssetBundleURL (Application.dataPath + "/");
+
 		// Or customize the URL based on your deployment or configuration
 		//AssetBundleManager.SetSourceAssetBundleURL("http://www.MyWebsite/MyAssetBundles");
+
+		//AssetBundleManager.SetSourceAssetBundleURL ("file://E:/GitHub/ABLoadscene/AssetBundles/");
+
+		//local resource
+		//build dem5
+		AssetBundleManager.SetSourceAssetBundleURL ("file://" + Application.dataPath + "/AssetBundles/");
+
+		//build demo6
+		Debug.Log ("file://" + Application.dataPath + "!/assets/");
+		//AssetBundleManager.SetSourceAssetBundleURL ("jar:file://" + Application.dataPath + "!/assets/");
+		//AssetBundleManager.SetSourceAssetBundleURL ("file://D:/AssetBundles/");
+
+		//v1
+		//AssetBundleManager.SetSourceAssetBundleURL ("http://www.cdit.ptit.edu.vn/DuLieuConEchV2");
+
+		//v2
+		//AssetBundleManager.SetSourceAssetBundleURL ("http://www.cdit.ptit.edu.vn/DuLieuConEchV2/");
+
+		//v3
+		//AssetBundleManager.SetSourceAssetBundleURL ("http://www.cdit.ptit.edu.vn/DuLieuConEchV2/AssetBundles");
+
+		//v4
+		//AssetBundleManager.SetSourceAssetBundleURL ("http://www.cdit.ptit.edu.vn/DuLieuConEchV2/AssetBundles/");
+
 //		#endif
 		
 		// Initialize AssetBundleManifest which loads the AssetBundleManifest object.

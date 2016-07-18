@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 332704702
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 67f207b07ee88f68c8e9bd383ac43489
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: df193091ba65e8d3b11c634b4ac141a7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a81dc0220f5a06a4c9c5d94d54f85ef2, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/ConEch/Prefabs/Ech.prefab
+Dependencies: []

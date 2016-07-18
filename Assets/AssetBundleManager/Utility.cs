@@ -1,5 +1,6 @@
 using UnityEngine;
-#if UNITY_EDITOR	
+
+#if UNITY_EDITOR
 using UnityEditor;
 #endif
 
@@ -7,22 +8,21 @@ namespace AssetBundles
 {
 	public class Utility
 	{
-		public const string AssetBundlesOutputPath = "AssetBundles";
-	
-		public static string GetPlatformName()
+		public const string AssetBundlesOutputPath = "Assets/AssetBundles";
+
+		public static string GetPlatformName ()
 		{
-	#if UNITY_EDITOR
-			return GetPlatformForAssetBundles(EditorUserBuildSettings.activeBuildTarget);
-	#else
+			#if UNITY_EDITOR
+			return GetPlatformForAssetBundles (EditorUserBuildSettings.activeBuildTarget);
+			#else
 			return GetPlatformForAssetBundles(Application.platform);
-	#endif
+			#endif
 		}
 	
-	#if UNITY_EDITOR
-		private static string GetPlatformForAssetBundles(BuildTarget target)
+		#if UNITY_EDITOR
+		private static string GetPlatformForAssetBundles (BuildTarget target)
 		{
-			switch(target)
-			{
+			switch (target) {
 			case BuildTarget.Android:
 				return "Android";
 			case BuildTarget.iOS:
@@ -38,18 +38,17 @@ namespace AssetBundles
 			case BuildTarget.StandaloneOSXIntel64:
 			case BuildTarget.StandaloneOSXUniversal:
 				return "OSX";
-				// Add more build targets for your own.
-				// If you add more targets, don't forget to add the same platforms to GetPlatformForAssetBundles(RuntimePlatform) function.
+			// Add more build targets for your own.
+			// If you add more targets, don't forget to add the same platforms to GetPlatformForAssetBundles(RuntimePlatform) function.
 			default:
 				return null;
 			}
 		}
-	#endif
+		#endif
 	
-		private static string GetPlatformForAssetBundles(RuntimePlatform platform)
+		private static string GetPlatformForAssetBundles (RuntimePlatform platform)
 		{
-			switch(platform)
-			{
+			switch (platform) {
 			case RuntimePlatform.Android:
 				return "Android";
 			case RuntimePlatform.IPhonePlayer:
@@ -63,8 +62,8 @@ namespace AssetBundles
 				return "Windows";
 			case RuntimePlatform.OSXPlayer:
 				return "OSX";
-				// Add more build targets for your own.
-				// If you add more targets, don't forget to add the same platforms to GetPlatformForAssetBundles(RuntimePlatform) function.
+			// Add more build targets for your own.
+			// If you add more targets, don't forget to add the same platforms to GetPlatformForAssetBundles(RuntimePlatform) function.
 			default:
 				return null;
 			}

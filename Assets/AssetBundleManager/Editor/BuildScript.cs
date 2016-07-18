@@ -17,6 +17,7 @@ namespace AssetBundles
 		{
 			// Choose the output path according to the build target.
 			string outputPath = Path.Combine (Utility.AssetBundlesOutputPath, Utility.GetPlatformName ());
+
 			if (!Directory.Exists (outputPath))
 				Directory.CreateDirectory (outputPath);
 	
